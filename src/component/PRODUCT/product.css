@@ -1,0 +1,18 @@
+.product{
+    display: flex;
+    padding-top: 10px;
+ 
+    border-bottom: 1px solid rgb(190, 155, 155);
+}
+.item-container{
+    padding-left: 15px;
+    color: rgb(8, 82, 82);
+    
+}
+.item-container h3{
+    color: blue;
+}
+
+.item-container h3 :hover{
+    color: aqua;
+}
