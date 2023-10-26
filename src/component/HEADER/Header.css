@@ -1,14 +1,10 @@
-.header{
-    text-align: center;
-}
 
 #logo{
-    margin-top: 20px;
-    height: 80px;
-    text-align: center;
+padding-right: 100px;
 }
 nav{
-    background-color: rgb(1, 14, 14);
+    padding: 50px;
+    background-color: rgb(94, 214, 214);
     padding: 10px;
 
 }
@@ -17,8 +13,9 @@ nav a{
     color: white;
     text-decoration: none;
     padding: 10px;
+
     font-size: 20px;
 }
-nav :hover{
+nav a:hover{
     background-color:gray ;
 }

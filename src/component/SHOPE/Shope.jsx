@@ -9,18 +9,24 @@ import './Shope.css'
 
 
 const Shope = () => {
-const data10 = fakeData.slice(0,11);
-const [products,productset] = useState(data10)
+
+    const data11 = fakeData.slice(0,11);
+    const [products,productset] = useState(data11)
+   function addproduct(){
+            console.log("productAdded");
+    }
     return (   
   
             <div className='shoping-container'>
                 <div className='product-container'>
-                {
-                    products.map(
-
-                        data => <Product product ={data}></Product>
-                    )
-                }
+               {
+                products.map(
+                    
+                         data => <Product 
+                         addproduct = {addproduct}
+                         Product={data}></Product> 
+                )
+               }
 
             </div> 
             <div className='card-container'>

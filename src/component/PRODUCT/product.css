@@ -16,3 +16,12 @@
 .item-container h3 :hover{
     color: aqua;
 }
+.main-btn{
+    background-color: darkorange;
+    width: auto;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    color: rgb(13, 3, 34);
+}
